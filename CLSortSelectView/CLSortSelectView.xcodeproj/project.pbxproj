@@ -15,11 +15,11 @@
 		9568E51E1C8C4A63007B5CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9568E51C1C8C4A63007B5CC8 /* LaunchScreen.storyboard */; };
 		9568E5291C8C4A63007B5CC8 /* CLSortSelectViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9568E5281C8C4A63007B5CC8 /* CLSortSelectViewTests.m */; };
 		9568E5341C8C4A63007B5CC8 /* CLSortSelectViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9568E5331C8C4A63007B5CC8 /* CLSortSelectViewUITests.m */; };
-		9568E5491C8C4A73007B5CC8 /* CLMainSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9568E5431C8C4A73007B5CC8 /* CLMainSelectedView.m */; };
-		9568E54A1C8C4A73007B5CC8 /* CLMainSelectedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9568E5441C8C4A73007B5CC8 /* CLMainSelectedView.xib */; };
-		9568E54B1C8C4A73007B5CC8 /* CLMenuSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9568E5461C8C4A73007B5CC8 /* CLMenuSubView.m */; };
-		9568E54C1C8C4A73007B5CC8 /* CLMenuSubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9568E5471C8C4A73007B5CC8 /* CLMenuSubView.xib */; };
-		9568E54D1C8C4A73007B5CC8 /* CLSortView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9568E5481C8C4A73007B5CC8 /* CLSortView.bundle */; };
+		95EC8DFD1C8C5C650071FF23 /* CLMainSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EC8DF71C8C5C650071FF23 /* CLMainSelectedView.m */; };
+		95EC8DFE1C8C5C650071FF23 /* CLMainSelectedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95EC8DF81C8C5C650071FF23 /* CLMainSelectedView.xib */; };
+		95EC8DFF1C8C5C650071FF23 /* CLMenuSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EC8DFA1C8C5C650071FF23 /* CLMenuSubView.m */; };
+		95EC8E001C8C5C650071FF23 /* CLMenuSubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95EC8DFB1C8C5C650071FF23 /* CLMenuSubView.xib */; };
+		95EC8E011C8C5C650071FF23 /* CLSortView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95EC8DFC1C8C5C650071FF23 /* CLSortView.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +56,13 @@
 		9568E52F1C8C4A63007B5CC8 /* CLSortSelectViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLSortSelectViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9568E5331C8C4A63007B5CC8 /* CLSortSelectViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLSortSelectViewUITests.m; sourceTree = "<group>"; };
 		9568E5351C8C4A63007B5CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9568E5421C8C4A73007B5CC8 /* CLMainSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMainSelectedView.h; sourceTree = "<group>"; };
-		9568E5431C8C4A73007B5CC8 /* CLMainSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMainSelectedView.m; sourceTree = "<group>"; };
-		9568E5441C8C4A73007B5CC8 /* CLMainSelectedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLMainSelectedView.xib; sourceTree = "<group>"; };
-		9568E5451C8C4A73007B5CC8 /* CLMenuSubVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMenuSubVIew.h; sourceTree = "<group>"; };
-		9568E5461C8C4A73007B5CC8 /* CLMenuSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMenuSubView.m; sourceTree = "<group>"; };
-		9568E5471C8C4A73007B5CC8 /* CLMenuSubView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLMenuSubView.xib; sourceTree = "<group>"; };
-		9568E5481C8C4A73007B5CC8 /* CLSortView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CLSortView.bundle; sourceTree = "<group>"; };
+		95EC8DF61C8C5C650071FF23 /* CLMainSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMainSelectedView.h; sourceTree = "<group>"; };
+		95EC8DF71C8C5C650071FF23 /* CLMainSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMainSelectedView.m; sourceTree = "<group>"; };
+		95EC8DF81C8C5C650071FF23 /* CLMainSelectedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLMainSelectedView.xib; sourceTree = "<group>"; };
+		95EC8DF91C8C5C650071FF23 /* CLMenuSubVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMenuSubVIew.h; sourceTree = "<group>"; };
+		95EC8DFA1C8C5C650071FF23 /* CLMenuSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMenuSubView.m; sourceTree = "<group>"; };
+		95EC8DFB1C8C5C650071FF23 /* CLMenuSubView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLMenuSubView.xib; sourceTree = "<group>"; };
+		95EC8DFC1C8C5C650071FF23 /* CLSortView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CLSortView.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 		9568E50D1C8C4A63007B5CC8 /* CLSortSelectView */ = {
 			isa = PBXGroup;
 			children = (
-				9568E5411C8C4A73007B5CC8 /* CLSortView */,
+				95EC8DF51C8C5C650071FF23 /* CLSortView */,
 				9568E5111C8C4A63007B5CC8 /* AppDelegate.h */,
 				9568E5121C8C4A63007B5CC8 /* AppDelegate.m */,
 				9568E5141C8C4A63007B5CC8 /* ViewController.h */,
@@ -153,18 +153,19 @@
 			path = CLSortSelectViewUITests;
 			sourceTree = "<group>";
 		};
-		9568E5411C8C4A73007B5CC8 /* CLSortView */ = {
+		95EC8DF51C8C5C650071FF23 /* CLSortView */ = {
 			isa = PBXGroup;
 			children = (
-				9568E5421C8C4A73007B5CC8 /* CLMainSelectedView.h */,
-				9568E5431C8C4A73007B5CC8 /* CLMainSelectedView.m */,
-				9568E5441C8C4A73007B5CC8 /* CLMainSelectedView.xib */,
-				9568E5451C8C4A73007B5CC8 /* CLMenuSubVIew.h */,
-				9568E5461C8C4A73007B5CC8 /* CLMenuSubView.m */,
-				9568E5471C8C4A73007B5CC8 /* CLMenuSubView.xib */,
-				9568E5481C8C4A73007B5CC8 /* CLSortView.bundle */,
+				95EC8DF61C8C5C650071FF23 /* CLMainSelectedView.h */,
+				95EC8DF71C8C5C650071FF23 /* CLMainSelectedView.m */,
+				95EC8DF81C8C5C650071FF23 /* CLMainSelectedView.xib */,
+				95EC8DF91C8C5C650071FF23 /* CLMenuSubVIew.h */,
+				95EC8DFA1C8C5C650071FF23 /* CLMenuSubView.m */,
+				95EC8DFB1C8C5C650071FF23 /* CLMenuSubView.xib */,
+				95EC8DFC1C8C5C650071FF23 /* CLSortView.bundle */,
 			);
-			path = CLSortView;
+			name = CLSortView;
+			path = ../../CLSortView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,12 +271,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9568E54C1C8C4A73007B5CC8 /* CLMenuSubView.xib in Resources */,
-				9568E54D1C8C4A73007B5CC8 /* CLSortView.bundle in Resources */,
+				95EC8E001C8C5C650071FF23 /* CLMenuSubView.xib in Resources */,
+				95EC8E011C8C5C650071FF23 /* CLSortView.bundle in Resources */,
 				9568E51E1C8C4A63007B5CC8 /* LaunchScreen.storyboard in Resources */,
 				9568E51B1C8C4A63007B5CC8 /* Assets.xcassets in Resources */,
 				9568E5191C8C4A63007B5CC8 /* Main.storyboard in Resources */,
-				9568E54A1C8C4A73007B5CC8 /* CLMainSelectedView.xib in Resources */,
+				95EC8DFE1C8C5C650071FF23 /* CLMainSelectedView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,10 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9568E5161C8C4A63007B5CC8 /* ViewController.m in Sources */,
-				9568E54B1C8C4A73007B5CC8 /* CLMenuSubView.m in Sources */,
+				95EC8DFF1C8C5C650071FF23 /* CLMenuSubView.m in Sources */,
 				9568E5131C8C4A63007B5CC8 /* AppDelegate.m in Sources */,
 				9568E5101C8C4A63007B5CC8 /* main.m in Sources */,
-				9568E5491C8C4A73007B5CC8 /* CLMainSelectedView.m in Sources */,
+				95EC8DFD1C8C5C650071FF23 /* CLMainSelectedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +529,7 @@
 				9568E53A1C8C4A63007B5CC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9568E53B1C8C4A63007B5CC8 /* Build configuration list for PBXNativeTarget "CLSortSelectViewTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +538,7 @@
 				9568E53D1C8C4A63007B5CC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9568E53E1C8C4A63007B5CC8 /* Build configuration list for PBXNativeTarget "CLSortSelectViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +547,7 @@
 				9568E5401C8C4A63007B5CC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
