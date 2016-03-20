@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		951701D21C96F0C80047DB34 /* CLMainSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 951701CC1C96F0C80047DB34 /* CLMainSelectedView.m */; };
+		951701D31C96F0C80047DB34 /* CLMainSelectedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951701CD1C96F0C80047DB34 /* CLMainSelectedView.xib */; };
+		951701D41C96F0C80047DB34 /* CLMenuSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 951701CF1C96F0C80047DB34 /* CLMenuSubView.m */; };
+		951701D51C96F0C80047DB34 /* CLMenuSubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951701D01C96F0C80047DB34 /* CLMenuSubView.xib */; };
+		951701D61C96F0C80047DB34 /* CLSortView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 951701D11C96F0C80047DB34 /* CLSortView.bundle */; };
 		9568E5101C8C4A63007B5CC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9568E50F1C8C4A63007B5CC8 /* main.m */; };
 		9568E5131C8C4A63007B5CC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9568E5121C8C4A63007B5CC8 /* AppDelegate.m */; };
 		9568E5161C8C4A63007B5CC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9568E5151C8C4A63007B5CC8 /* ViewController.m */; };
@@ -15,11 +20,6 @@
 		9568E51E1C8C4A63007B5CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9568E51C1C8C4A63007B5CC8 /* LaunchScreen.storyboard */; };
 		9568E5291C8C4A63007B5CC8 /* CLSortSelectViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9568E5281C8C4A63007B5CC8 /* CLSortSelectViewTests.m */; };
 		9568E5341C8C4A63007B5CC8 /* CLSortSelectViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9568E5331C8C4A63007B5CC8 /* CLSortSelectViewUITests.m */; };
-		95EC8DFD1C8C5C650071FF23 /* CLMainSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EC8DF71C8C5C650071FF23 /* CLMainSelectedView.m */; };
-		95EC8DFE1C8C5C650071FF23 /* CLMainSelectedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95EC8DF81C8C5C650071FF23 /* CLMainSelectedView.xib */; };
-		95EC8DFF1C8C5C650071FF23 /* CLMenuSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EC8DFA1C8C5C650071FF23 /* CLMenuSubView.m */; };
-		95EC8E001C8C5C650071FF23 /* CLMenuSubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95EC8DFB1C8C5C650071FF23 /* CLMenuSubView.xib */; };
-		95EC8E011C8C5C650071FF23 /* CLSortView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 95EC8DFC1C8C5C650071FF23 /* CLSortView.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		951701CB1C96F0C80047DB34 /* CLMainSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMainSelectedView.h; sourceTree = "<group>"; };
+		951701CC1C96F0C80047DB34 /* CLMainSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMainSelectedView.m; sourceTree = "<group>"; };
+		951701CD1C96F0C80047DB34 /* CLMainSelectedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLMainSelectedView.xib; sourceTree = "<group>"; };
+		951701CE1C96F0C80047DB34 /* CLMenuSubVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMenuSubVIew.h; sourceTree = "<group>"; };
+		951701CF1C96F0C80047DB34 /* CLMenuSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMenuSubView.m; sourceTree = "<group>"; };
+		951701D01C96F0C80047DB34 /* CLMenuSubView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLMenuSubView.xib; sourceTree = "<group>"; };
+		951701D11C96F0C80047DB34 /* CLSortView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CLSortView.bundle; sourceTree = "<group>"; };
 		9568E50B1C8C4A63007B5CC8 /* CLSortSelectView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLSortSelectView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9568E50F1C8C4A63007B5CC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9568E5111C8C4A63007B5CC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,13 +63,6 @@
 		9568E52F1C8C4A63007B5CC8 /* CLSortSelectViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLSortSelectViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9568E5331C8C4A63007B5CC8 /* CLSortSelectViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLSortSelectViewUITests.m; sourceTree = "<group>"; };
 		9568E5351C8C4A63007B5CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95EC8DF61C8C5C650071FF23 /* CLMainSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMainSelectedView.h; sourceTree = "<group>"; };
-		95EC8DF71C8C5C650071FF23 /* CLMainSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMainSelectedView.m; sourceTree = "<group>"; };
-		95EC8DF81C8C5C650071FF23 /* CLMainSelectedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLMainSelectedView.xib; sourceTree = "<group>"; };
-		95EC8DF91C8C5C650071FF23 /* CLMenuSubVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMenuSubVIew.h; sourceTree = "<group>"; };
-		95EC8DFA1C8C5C650071FF23 /* CLMenuSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMenuSubView.m; sourceTree = "<group>"; };
-		95EC8DFB1C8C5C650071FF23 /* CLMenuSubView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLMenuSubView.xib; sourceTree = "<group>"; };
-		95EC8DFC1C8C5C650071FF23 /* CLSortView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CLSortView.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +90,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		951701CA1C96F0C80047DB34 /* CLMainSelectedView */ = {
+			isa = PBXGroup;
+			children = (
+				951701CB1C96F0C80047DB34 /* CLMainSelectedView.h */,
+				951701CC1C96F0C80047DB34 /* CLMainSelectedView.m */,
+				951701CD1C96F0C80047DB34 /* CLMainSelectedView.xib */,
+				951701CE1C96F0C80047DB34 /* CLMenuSubVIew.h */,
+				951701CF1C96F0C80047DB34 /* CLMenuSubView.m */,
+				951701D01C96F0C80047DB34 /* CLMenuSubView.xib */,
+				951701D11C96F0C80047DB34 /* CLSortView.bundle */,
+			);
+			name = CLMainSelectedView;
+			path = ../../CLMainSelectedView;
+			sourceTree = "<group>";
+		};
 		9568E5021C8C4A63007B5CC8 = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +128,7 @@
 		9568E50D1C8C4A63007B5CC8 /* CLSortSelectView */ = {
 			isa = PBXGroup;
 			children = (
-				95EC8DF51C8C5C650071FF23 /* CLSortView */,
+				951701CA1C96F0C80047DB34 /* CLMainSelectedView */,
 				9568E5111C8C4A63007B5CC8 /* AppDelegate.h */,
 				9568E5121C8C4A63007B5CC8 /* AppDelegate.m */,
 				9568E5141C8C4A63007B5CC8 /* ViewController.h */,
@@ -151,21 +166,6 @@
 				9568E5351C8C4A63007B5CC8 /* Info.plist */,
 			);
 			path = CLSortSelectViewUITests;
-			sourceTree = "<group>";
-		};
-		95EC8DF51C8C5C650071FF23 /* CLSortView */ = {
-			isa = PBXGroup;
-			children = (
-				95EC8DF61C8C5C650071FF23 /* CLMainSelectedView.h */,
-				95EC8DF71C8C5C650071FF23 /* CLMainSelectedView.m */,
-				95EC8DF81C8C5C650071FF23 /* CLMainSelectedView.xib */,
-				95EC8DF91C8C5C650071FF23 /* CLMenuSubVIew.h */,
-				95EC8DFA1C8C5C650071FF23 /* CLMenuSubView.m */,
-				95EC8DFB1C8C5C650071FF23 /* CLMenuSubView.xib */,
-				95EC8DFC1C8C5C650071FF23 /* CLSortView.bundle */,
-			);
-			name = CLSortView;
-			path = ../../CLSortView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,12 +271,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95EC8E001C8C5C650071FF23 /* CLMenuSubView.xib in Resources */,
-				95EC8E011C8C5C650071FF23 /* CLSortView.bundle in Resources */,
+				951701D51C96F0C80047DB34 /* CLMenuSubView.xib in Resources */,
+				951701D61C96F0C80047DB34 /* CLSortView.bundle in Resources */,
 				9568E51E1C8C4A63007B5CC8 /* LaunchScreen.storyboard in Resources */,
 				9568E51B1C8C4A63007B5CC8 /* Assets.xcassets in Resources */,
 				9568E5191C8C4A63007B5CC8 /* Main.storyboard in Resources */,
-				95EC8DFE1C8C5C650071FF23 /* CLMainSelectedView.xib in Resources */,
+				951701D31C96F0C80047DB34 /* CLMainSelectedView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,10 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9568E5161C8C4A63007B5CC8 /* ViewController.m in Sources */,
-				95EC8DFF1C8C5C650071FF23 /* CLMenuSubView.m in Sources */,
+				951701D41C96F0C80047DB34 /* CLMenuSubView.m in Sources */,
 				9568E5131C8C4A63007B5CC8 /* AppDelegate.m in Sources */,
 				9568E5101C8C4A63007B5CC8 /* main.m in Sources */,
-				95EC8DFD1C8C5C650071FF23 /* CLMainSelectedView.m in Sources */,
+				951701D21C96F0C80047DB34 /* CLMainSelectedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
