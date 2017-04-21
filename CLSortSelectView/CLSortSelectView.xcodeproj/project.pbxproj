@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		951701D21C96F0C80047DB34 /* CLMainSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 951701CC1C96F0C80047DB34 /* CLMainSelectedView.m */; };
-		951701D31C96F0C80047DB34 /* CLMainSelectedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951701CD1C96F0C80047DB34 /* CLMainSelectedView.xib */; };
-		951701D41C96F0C80047DB34 /* CLMenuSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 951701CF1C96F0C80047DB34 /* CLMenuSubView.m */; };
-		951701D51C96F0C80047DB34 /* CLMenuSubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951701D01C96F0C80047DB34 /* CLMenuSubView.xib */; };
-		951701D61C96F0C80047DB34 /* CLSortView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 951701D11C96F0C80047DB34 /* CLSortView.bundle */; };
+		951557F11EA9EA680093686D /* CLMainSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 951557EB1EA9EA680093686D /* CLMainSelectedView.m */; };
+		951557F21EA9EA680093686D /* CLMainSelectedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951557EC1EA9EA680093686D /* CLMainSelectedView.xib */; };
+		951557F31EA9EA680093686D /* CLMenuSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 951557EE1EA9EA680093686D /* CLMenuSubView.m */; };
+		951557F41EA9EA680093686D /* CLMenuSubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 951557EF1EA9EA680093686D /* CLMenuSubView.xib */; };
+		951557F51EA9EA680093686D /* CLSortView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 951557F01EA9EA680093686D /* CLSortView.bundle */; };
 		9568E5101C8C4A63007B5CC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9568E50F1C8C4A63007B5CC8 /* main.m */; };
 		9568E5131C8C4A63007B5CC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9568E5121C8C4A63007B5CC8 /* AppDelegate.m */; };
 		9568E5161C8C4A63007B5CC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9568E5151C8C4A63007B5CC8 /* ViewController.m */; };
@@ -40,13 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		951701CB1C96F0C80047DB34 /* CLMainSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMainSelectedView.h; sourceTree = "<group>"; };
-		951701CC1C96F0C80047DB34 /* CLMainSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMainSelectedView.m; sourceTree = "<group>"; };
-		951701CD1C96F0C80047DB34 /* CLMainSelectedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLMainSelectedView.xib; sourceTree = "<group>"; };
-		951701CE1C96F0C80047DB34 /* CLMenuSubVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMenuSubVIew.h; sourceTree = "<group>"; };
-		951701CF1C96F0C80047DB34 /* CLMenuSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMenuSubView.m; sourceTree = "<group>"; };
-		951701D01C96F0C80047DB34 /* CLMenuSubView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLMenuSubView.xib; sourceTree = "<group>"; };
-		951701D11C96F0C80047DB34 /* CLSortView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CLSortView.bundle; sourceTree = "<group>"; };
+		951557EA1EA9EA680093686D /* CLMainSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMainSelectedView.h; sourceTree = "<group>"; };
+		951557EB1EA9EA680093686D /* CLMainSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMainSelectedView.m; sourceTree = "<group>"; };
+		951557EC1EA9EA680093686D /* CLMainSelectedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLMainSelectedView.xib; sourceTree = "<group>"; };
+		951557ED1EA9EA680093686D /* CLMenuSubVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMenuSubVIew.h; sourceTree = "<group>"; };
+		951557EE1EA9EA680093686D /* CLMenuSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMenuSubView.m; sourceTree = "<group>"; };
+		951557EF1EA9EA680093686D /* CLMenuSubView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLMenuSubView.xib; sourceTree = "<group>"; };
+		951557F01EA9EA680093686D /* CLSortView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CLSortView.bundle; sourceTree = "<group>"; };
 		9568E50B1C8C4A63007B5CC8 /* CLSortSelectView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLSortSelectView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9568E50F1C8C4A63007B5CC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9568E5111C8C4A63007B5CC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,19 +90,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		951701CA1C96F0C80047DB34 /* CLMainSelectedView */ = {
+		951557E91EA9EA680093686D /* CLSortView */ = {
 			isa = PBXGroup;
 			children = (
-				951701CB1C96F0C80047DB34 /* CLMainSelectedView.h */,
-				951701CC1C96F0C80047DB34 /* CLMainSelectedView.m */,
-				951701CD1C96F0C80047DB34 /* CLMainSelectedView.xib */,
-				951701CE1C96F0C80047DB34 /* CLMenuSubVIew.h */,
-				951701CF1C96F0C80047DB34 /* CLMenuSubView.m */,
-				951701D01C96F0C80047DB34 /* CLMenuSubView.xib */,
-				951701D11C96F0C80047DB34 /* CLSortView.bundle */,
+				951557EA1EA9EA680093686D /* CLMainSelectedView.h */,
+				951557EB1EA9EA680093686D /* CLMainSelectedView.m */,
+				951557EC1EA9EA680093686D /* CLMainSelectedView.xib */,
+				951557ED1EA9EA680093686D /* CLMenuSubVIew.h */,
+				951557EE1EA9EA680093686D /* CLMenuSubView.m */,
+				951557EF1EA9EA680093686D /* CLMenuSubView.xib */,
+				951557F01EA9EA680093686D /* CLSortView.bundle */,
 			);
-			name = CLMainSelectedView;
-			path = ../../CLMainSelectedView;
+			path = CLSortView;
 			sourceTree = "<group>";
 		};
 		9568E5021C8C4A63007B5CC8 = {
@@ -128,7 +127,7 @@
 		9568E50D1C8C4A63007B5CC8 /* CLSortSelectView */ = {
 			isa = PBXGroup;
 			children = (
-				951701CA1C96F0C80047DB34 /* CLMainSelectedView */,
+				951557E91EA9EA680093686D /* CLSortView */,
 				9568E5111C8C4A63007B5CC8 /* AppDelegate.h */,
 				9568E5121C8C4A63007B5CC8 /* AppDelegate.m */,
 				9568E5141C8C4A63007B5CC8 /* ViewController.h */,
@@ -271,12 +270,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				951701D51C96F0C80047DB34 /* CLMenuSubView.xib in Resources */,
-				951701D61C96F0C80047DB34 /* CLSortView.bundle in Resources */,
+				951557F41EA9EA680093686D /* CLMenuSubView.xib in Resources */,
+				951557F51EA9EA680093686D /* CLSortView.bundle in Resources */,
 				9568E51E1C8C4A63007B5CC8 /* LaunchScreen.storyboard in Resources */,
 				9568E51B1C8C4A63007B5CC8 /* Assets.xcassets in Resources */,
 				9568E5191C8C4A63007B5CC8 /* Main.storyboard in Resources */,
-				951701D31C96F0C80047DB34 /* CLMainSelectedView.xib in Resources */,
+				951557F21EA9EA680093686D /* CLMainSelectedView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,10 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9568E5161C8C4A63007B5CC8 /* ViewController.m in Sources */,
-				951701D41C96F0C80047DB34 /* CLMenuSubView.m in Sources */,
+				951557F31EA9EA680093686D /* CLMenuSubView.m in Sources */,
 				9568E5131C8C4A63007B5CC8 /* AppDelegate.m in Sources */,
 				9568E5101C8C4A63007B5CC8 /* main.m in Sources */,
-				951701D21C96F0C80047DB34 /* CLMainSelectedView.m in Sources */,
+				951557F11EA9EA680093686D /* CLMainSelectedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
